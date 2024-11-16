@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () => {
+const ShowList = () => {
   const [employees, setEmployees] = useState([]);
   const [inputName, setInputName] = useState('');
   const [inputJob, setInputJob] = useState('');
@@ -127,4 +127,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export default ShowList;
